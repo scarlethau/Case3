@@ -10,3 +10,4 @@ streamlit==1.0.0
 requests==2.25.1
 seaborn==0.11.1
 ipython==7.22.0
+geopandas==0.10.0
