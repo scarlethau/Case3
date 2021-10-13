@@ -175,10 +175,10 @@ float_annotation = {'xref': 'paper', 'yref': 'paper',
                     }
 
 
-fig.data[1].visible=False
-fig.update_layout({'updatemenus':[{'type': "dropdown",'x': 1.3,'y': 0.5,'showactive': True,'active': 0,'buttons': dropdown_buttons}]})
-fig.update_layout(xaxis_title='Time in hour',
-                  yaxis_title="Number of observations")
+st.plotly_graph(fig.data[1].visible=False)
+st.plotly_graph(fig.update_layout({'updatemenus':[{'type': "dropdown",'x': 1.3,'y': 0.5,'showactive': True,'active': 0,'buttons': dropdown_buttons}]}))
+st.plotly_graph(fig.update_layout(xaxis_title='Time in hour',
+                  yaxis_title="Number of observations"))
 fig.update_layout({'annotations': [float_annotation]})
 fig.show()
 
