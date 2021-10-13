@@ -8,7 +8,7 @@ folium==0.12.1
 geopandas
 fuzzywuzzy==0.18.0
 pip==21.0.1
-st==1.0.0
+streamlit==1.0.0
 requests==2.25.1
 seaborn==0.11.1
 ipython==7.22.0
